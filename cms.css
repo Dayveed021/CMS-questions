@@ -224,4 +224,9 @@ input {
   justify-content: center;
   color: white;
   background-color: gray;
+  cursor: pointer;
+}
+
+button {
+  cursor: pointer;
 }
