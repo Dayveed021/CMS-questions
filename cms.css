@@ -1,0 +1,211 @@
+* {
+  margin: 0px;
+  padding: 0px;
+  box-sizing: 0px;
+}
+
+.container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  background-color: #f5f5f5;
+  gap: 30px;
+  width: 100%;
+  padding: 20px;
+}
+
+.container .header {
+  display: flex;
+  align-items: flex-start;
+  justify-content: center;
+  background-color: rgb(65, 65, 227);
+  flex-direction: column;
+  gap: 5px;
+  padding: 20px;
+  width: 90%;
+  border-radius: 15px;
+}
+
+.container .header p {
+  color: white;
+}
+.container .header h1 {
+  color: white;
+}
+.container .quiz-body {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  width: 65%;
+}
+.container .quiz-body .body-header {
+  background-color: rgb(179, 218, 255);
+  display: flex;
+  align-items: flex-start;
+  justify-content: center;
+  flex-direction: column;
+  padding: 20px 35px 20px 35px;
+  width: 100%;
+  gap: 20px;
+}
+.container .quiz-body .body-header .topic {
+  display: flex;
+  align-items: flex-start;
+  justify-content: center;
+  flex-direction: column;
+  gap: 5px;
+  width: 100%;
+}
+.container .quiz-body .body-header .topic select {
+  width: 70%;
+  height: 35px;
+  color: gray;
+  border: gray 1px solid;
+  padding: 5px;
+  border-radius: 2px;
+}
+.container .quiz-body .body-header .topic textarea {
+  width: 70%;
+  border: gray 1px solid;
+  padding: 10px;
+  border-radius: 2px;
+}
+.container .quiz-body .questions-con {
+  background-color: white;
+  width: 100%;
+  padding: 10px 35px 15px 35px;
+}
+.container .quiz-body .questions-con {
+  background-color: white;
+  width: 100%;
+  padding: 10px 35px 15px 35px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+.container .quiz-body .questions-con .questions-main {
+  width: 70%;
+  padding: 0px 25px 0px 25px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  gap: 15px;
+}
+.container .quiz-body .questions-con .questions-main .questions-title h2 {
+  text-align: center;
+  padding: 5px 0px 5px 0px;
+  border-bottom: 1px gray solid;
+}
+.container .quiz-body .questions-con .questions-main .questions {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  width: 100%;
+  gap: 30px;
+}
+.container .quiz-body .questions-con .questions-main .questions .hold {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  width: 100%;
+}
+.question-header {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  width: 100%;
+  gap: 5px;
+}
+.plus {
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+  width: 100%;
+}
+.num-ques {
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  width: 100%;
+  gap: 10px;
+}
+.num-ques p {
+  border: 1px solid black;
+  padding: 5px 10px 5px 10px;
+  width: 100%;
+}
+.radio {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  gap: 50px;
+}
+.radio .radio-title {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  gap: 10px;
+}
+.answers {
+  display: flex;
+  align-items: flex-start;
+  justify-content: center;
+  flex-direction: column;
+  width: 100%;
+  gap: 20px;
+}
+.answers-1 {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  width: 100%;
+  gap: 20px;
+}
+.answers-1 input {
+  height: 30px;
+  padding: 0px 0px 0px 10px;
+  width: 90%;
+}
+.answer-main {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 100%;
+}
+.answer {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 10px;
+}
+.que {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  width: 100%;
+  gap: 30px;
+}
+
+button {
+  padding: 15px 80px 15px 80px;
+  background-color: rgb(75, 75, 241);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 5px;
+  color: white;
+  border: none;
+  border-radius: 10px;
+  margin-top: 50px;
+}
