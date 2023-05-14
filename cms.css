@@ -230,3 +230,21 @@ input {
 button {
   cursor: pointer;
 }
+
+.search {
+  border: none;
+  padding: 0px 0px 0px 10px;
+  font-size: 18px;
+  color: gray;
+  background-color: transparent;
+  width: 320px;
+}
+.search-bar {
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  padding: 12px 10px 12px 10px;
+  border: 1px gray solid;
+  background-color: #fff;
+  border-radius: 2px;
+}
